@@ -1,0 +1,9 @@
+
+.Navbar { 
+    height: 100px;
+    display: flex;
+}
+
+.Navbar .link ul li {
+    flex: 1;
+}
