@@ -1,8 +1,156 @@
+* {
+ 
+    font-family: src;
+    margin: 0;
+    /* border: 2px solid #3882F6; */
+}
 
 .Navbar { 
-    height: 100px;
+    height: 50px;
+    display: flex;
+    background-color: #00308F;
+    overflow: hidden;
+    background-color: #1F2937;
+}
+
+.Navbar .logo {
+    flex: 1;
+}
+
+.Navbar .logo img {
+    height: 45px;
+    width: 45px;
+    margin: 2.5px 0 0 50px;
+}
+
+.Navbar .link {
+    flex: 1;
+}
+
+.Navbar .link ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
 }
 
 .Navbar .link ul li {
-    display: inline;
+    flex:  1;
+}
+
+.Navbar .link ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.Navbar .link ul li a:hover {
+    color: #b3edff;
+    transition: 500ms;
+}
+
+
+/* Hero Container */
+
+.hero-section {
+    background-image: url("gif_01.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(112, 112, 112);
+    background-blend-mode: multiply;
+    height: 500px;
+    display: flex;
+}
+
+.hero-section .hero-container {
+    flex: 1;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.hero-section .hero-container h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-section .hero-container p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-section .hero-container .button {
+    border: 2px solid  #3882F6;
+    width: 150px;
+    height: 40px;
+    background:  #3882F6;
+    border-radius: 10px 10px;
+    text-align: center;
+}
+
+.hero-section .hero-container a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+
+
+.hero-section .img-container {
+    flex: 1;
+    padding-top: 80px;
+    padding-left: 80px;  
+}
+
+.hero-section .img-container img {
+    margin: 0;
+    width: 80%;
+    height: auto;
+}
+
+/* page1 */
+
+.page1 {
+    height: 500px;
+}
+
+.page1 h1 {
+    text-align: center;
+}
+
+.page1 .img-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.page1 .img-container .image{
+    flex: 1;
+    height: 50%;
+    width: 10%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.page1 .img-container .image img{
+    height: 100%;
+    width: 80%;
+}
+
+.page1 .img-container .image p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+/* page2 */
+
+.page2 {
+    height: 500px;
+}
+
+.page3 {
+    height: 500px;
 }
